@@ -27,6 +27,10 @@
   <!-- 하나폰트연결하기 -->
   <link rel="stylesheet" href="css/fonts/stylesheet.css">
   ​
+  <!-- slickcss -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+
   <!-- style -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
@@ -85,43 +89,65 @@
             </p> <!-- //구름2 -->
             <p class="ob ob3">
               <img src="img/ev49_obj_03.png" alt="달력">
-            </p> <!--// 달력 -->
+            </p>
+            <!--// 달력 -->
             <p class="ob ob3-1">
               <img src="img/ev43_obj_02.png" alt="쇼핑할땐">
-            </p> <!--// 쇼핑할땐 -->
+            </p>
+            <!--// 쇼핑할땐 -->
             <p class="ob ob3-2">
               <img src="img/ev43_obj_03.png" alt="타이틀">
-            </p> <!--// 타이틀 -->
+            </p>
+            <!--// 타이틀 -->
             <p class="ob ob3-3">
               <img src="img/ev43_obj_04.png" alt="1">
-            </p> <!--// 1 -->
+            </p>
+            <!--// 1 -->
             <p class="ob ob3-4">
               <img src="img/ev43_obj_04.png" alt="1">
-            </p> <!--// 1 -->
+            </p>
+            <!--// 1 -->
             <p class="ob ob4">
               <img src="img/ev49_obj_04.png" alt="우산">
-            </p> <!--// 우산 -->
+            </p>
+            <!--// 우산 -->
             <p class="ob ob5">
               <img src="img/ev49_obj_05.png" alt="슈트케이스">
-            </p> <!--// 슈트케이스 -->
+            </p>
+            <!--// 슈트케이스 -->
             <p class="ob ob6">
               <img src="img/ev49_obj_06.png" alt="자동차">
-            </p> <!--// 자동차 -->
+            </p>
+            <!--// 자동차 -->
             <p class="ob ob7">
               <img src="img/ev49_obj_07.png" alt="선물">
-            </p> <!--// 선물 -->
+            </p>
+            <!--// 선물 -->
             <p class="ob ob8">
               <img src="img/ev49_obj_08.png" alt="박스">
-            </p> <!--// 박스 -->
+            </p>
+            <!--// 박스 -->
             <p class="ob ob9">
               <img src="img/ev49_obj_09.png" alt="가방">
-            </p> <!--// 가방 -->
+            </p>
+            <!--// 가방 -->
             <p class="ob ob10">
               <img src="img/ev49_obj_10.png" alt="바람1">
-            </p> <!--// 바람1 -->
+            </p>
+            <!--// 바람1 -->
             <p class="ob ob11">
               <img src="img/ev49_obj_11.png" alt="바람2">
-            </p> <!--// 바람2 -->
+            </p>
+            <!--// 바람2 -->
+            <p class="ob ob12">
+              <img src="img/ev49_obj_12.png" alt="원">
+            </p>
+            <!--// 원 -->
+            <p class="ob ob13">
+              <img src="img/ev49_obj_13.png" alt="서프라이즈">
+            </p>
+            <!--// 서프라이즈 -->
+
 
           </div> <!-- //obj -->
         </div><!-- //ban_left -->
@@ -146,7 +172,7 @@
               <li><a href="#">한도상향</a></li>
             </ul>
           </div> <!-- //br_btn -->
-          
+
         </div><!-- //ban_right -->
       </div> <!-- //container -->
     </div> <!-- //banner -->
@@ -155,7 +181,8 @@
       <div id="cont1">
         <div class="container">
           <nav id="nav">
-            <ul class="gnb"> <!-- 메인메뉴,GNB -->
+            <ul class="gnb">
+              <!-- 메인메뉴,GNB -->
               <li><a href="#">마이페이지</a></li>
               <li><a href="#">카드</a></li>
               <li><a href="#">금융</a></li>
@@ -165,9 +192,9 @@
             </ul>
             <ul class="gnb_right">
               <li class="gr1"><a href="#">간편서비스</a></li>
-              <li class="gr2"><a href="#">전체메뉴 
-                <i class="fas fa-bars"></i>
-              </a></li>
+              <li class="gr2"><a href="#">전체메뉴
+                  <i class="fas fa-bars"></i>
+                </a></li>
             </ul>
             <a href="#" class="gnb_search">
               <span class="ir">통합검색</span>
@@ -176,8 +203,92 @@
             <a href="#" class="gnb_event">
               Event <i class="fas fa-plus"></i>
             </a>
-          </nav> 
-        </div>
+          </nav>
+          <div id="card" class="clearfix">
+            <div class="card_img">
+              <h4>추천카드</h4>
+              <div class="card_banner">
+                <ul class="clearfix">
+                  <li>
+                    <a href="#">
+                      <img src="img/card01.gif" alt="card01">
+                      <em>국내외 전 가맹점 0.7%</em>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/card02.png" alt="card02">
+                      <em>SK텔레콤 2천~1만5천</em>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/card03.gif" alt="card03">
+                      <em>온라인 쇼핑/마트 주중</em>
+                    </a>
+                  </li>
+                </ul>
+              </div><!-- //card_banner -->
+              <div class="card_link">
+                <ul class="clearfix">
+                  <li><a href="#">카드발급조회</a></li>
+                  <li><a href="#">카드사용등록</a></li>
+                  <li><a href="#">분실도난</a></li>
+                  <li><a href="#">카드비밀번호 등록/변경</a></li>
+                </ul>
+              </div><!-- //card_link -->
+              <a href="#" class="cardmore-btn ir">추천카드</a>
+            </div> <!-- //card_img -->
+            <div class="card_desc">
+              <dl>
+                <dt>원하는 365 언제나!</dt>
+                <dd class="cd1"> 이번달, 지출증가 <br>
+                  쉽고 편리하게 대출을 받을 수 있을까?
+                </dd>
+                <dd class="cd2">
+                  <ul>
+                    <li><a href="#">단기카드대출</a></li>
+                    <li><a href="#">장기카드대출</a></li>
+                    <li><a href="#">일부결제금액이월 약정</a></li>
+                  </ul>
+                </dd>
+              </dl>
+
+            </div>
+            <!--// card_desc -->
+          </div><!-- //#card -->
+          <div id="event">
+            <div class="event_box1">
+              <div class="eb_banner1">
+                <p class="eb_desc">원하는 정보와 쌓이는 혜택</p>
+                <h4 class="eb_tit">웹 회원가입</h4>
+              </div>
+              <div class="eb_banner2">
+                <p class="eb_desc">유용한 정보를 미리 준비하세요!</p>
+                <h4 class="eb_tit">해외 이용 가이드</h4>
+              </div>
+              <div class="eb_banner3">
+                <p class="eb_desc">특별한 혜택을 누리세요</p>
+                <h4 class="eb_tit">VIP Service</h4>
+              </div>
+            </div> <!-- //event_box1 -->
+            <div class="event_box2">
+              <div class="eb_banner4">
+                <div class="eb_icon"></div> <!-- // eb_icon -->
+                <div class="eb_slider">
+                  <div class="your-class">
+                    <div>your content</div>
+                    <div>your content</div>
+                    <div>your content</div>
+                  </div>
+                </div> <!-- //eb_slider -->
+              </div> <!-- //eb_banner4 -->
+              <div class="eb_banner5"></div> <!-- //eb_banner5 -->
+
+            </div> <!-- //event_box2 -->
+            <div class="event_box3">box3</div> <!-- //event_box3 -->
+          </div> <!-- //event -->
+        </div><!-- //container -->
       </div> <!-- // cont1 -->
     </div> <!-- //contents -->
 
@@ -187,6 +298,8 @@
 
 
   <!-- script js -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
